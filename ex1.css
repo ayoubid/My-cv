@@ -1,0 +1,113 @@
+[class^="box"]
+{
+	height: 33.33%;
+	width: 33.33%;
+}
+body
+{
+	font-family: 'Trebuchet MS', sans-serif;
+}
+h2
+{
+	text-align: center;
+}
+div[class*="box"]:nth-child(1)
+{
+	background-color: #da7f8f;
+}
+div[class*="box"]:nth-child(2)
+{
+	background-color: #00adb5;
+}
+div[class*="box"]:nth-child(3)
+{
+    background-color: #fed049;
+}
+.box5
+{
+	position: relative;
+	left: 100px;
+}
+.box6
+{
+	position: relative;
+	left: 200px;
+}
+.box7
+{
+	width: 200px;
+}
+.box9
+{
+	position: relative;
+	left: 100px;
+	bottom: 100px;
+}
+.box12
+{
+	position: relative;
+	left: 100px;
+	bottom: 200px;
+}
+.container_pa,.container_pr
+{
+	height: 305px;
+	border: 2px solid black;
+	width: 80%;
+	margin: auto;
+	box-sizing: border-box;
+}
+.container
+{ 
+	position: relative;
+	float: left;
+	width: 25%;
+	box-sizing: border-box;
+	border-right:  2px solid black;
+	height: 100%;
+}
+[class^="card"]
+{
+	width: 33.33%;
+	height: 33.33%;
+}
+div[class^="card"]:nth-child(1)
+{
+    background-color: #da7f8f;
+}
+div[class^="card"]:nth-child(2)
+{
+	background-color: #00adb5;
+}
+div[class^="card"]:nth-child(3)
+{
+	background-color: #fed049;
+}
+.card5
+{
+	position: absolute;
+	left: 33.33%;
+	height: 33.33%;
+}
+.card6
+{
+	position: absolute;
+	left: 66.66%;
+	top: 66.66%;
+}
+.card7
+{
+	width: 66.66%;
+}
+.card9
+{
+	position: absolute;
+	left:  33.33%;
+	top: 33.33%;
+}
+.card12
+{
+	position: absolute;
+	left: 33.33%;
+	top: 0;
+}

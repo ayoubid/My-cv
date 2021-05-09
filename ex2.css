@@ -1,0 +1,95 @@
+.col1,.col2,.col5
+{
+   height: 120px;
+   margin-bottom: 15px;
+}
+body
+{
+	font-family: 'Trebuchet MS', sans-serif;
+}
+span
+{
+	position: relative;
+	left: 45%;
+	top: 40%;
+}
+[class^="box"]
+{
+   float: left;
+   width: 23%;
+   height: 120px;
+   margin: 1%;
+}
+[class^="card"]
+{
+	float: left;
+	width: 48%;
+	height: 130px;
+	margin:1%;
+}
+.col3,.col4
+{
+  overflow: auto;
+  margin-bottom: 15px;
+}
+.col1
+{
+	background-color: #2978b5;
+}
+.col2
+{
+	background-color: #ff8882;
+}
+.col5
+{
+	background-color: #126e82;
+}
+.box1
+{
+	background-color: #98ddca;
+}
+.box2
+{
+	background-color: #ffd3b4;
+}
+.box3
+{
+	background-color: #387c6d;
+}
+.box4
+{
+	background-color: #da7f8f;
+}
+.card1
+{
+	background-color:#ffefa1; 
+}
+.card2
+{
+	background-color: #94ebcd;
+}
+@media screen and (min-width: 560px) and (max-width: 760px)
+{
+     [class^="box"]
+     {
+     	width: 48%;
+     }
+      [class^="card"]
+     {
+      width: 100%;
+      margin:0 0 1% 0;
+     }
+}
+@media screen and (max-width: 560px)
+{
+     [class^="box"]
+     {
+     	width: 100%;
+     	margin:0 0 1% 0;
+     }
+     [class^="card"]
+     {
+      width: 100%;
+      margin:0 0 1% 0;
+     }
+}
